@@ -7,6 +7,7 @@ h1 {
 
 header {
   background-color: rgb(236, 192, 69);
+  border-radius: 100px;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 
 h4 {
   text-align: center;
+  background-color: rgb(142, 106, 9);
+  border-radius: 8px;
+  margin-left: 650px;
+  margin-right: 650px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -30,47 +35,65 @@ h4 {
   margin-left: 100px;
   text-align: center;
   font-size: 25px;
+  list-style-type: none;
+
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .Shoes {
   border: 5px solid rgb(236, 192, 69);
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 
 .location {
   float: left;
   margin-top: 120px;
+  width: 300px;
   background-color: rgb(236, 192, 69);
-}
-
-#shadow {
-  margin-left: 20px;
+  border-radius: 20px;
 }
 
 #retro {
   padding-left: 20px;
 }
 
-#stay {
-  margin-left: 20px;
-}
-
 #fly {
   margin-left: 20px;
 }
 
-#flag {
+.flag {
+  list-style-type: none;
   text-align: center;
+  border-radius: 100px;
   background-color: rgb(224, 199, 165);
 }
 
 #table {
+  font-size: 25px;
+  border: solid 10px;
+  border-style: double;
+  border-collapse: separate;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
+  height: auto;
+  color: rgb(80, 81, 68);
+  margin-top: 50px;
   background-color: antiquewhite;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Fcolor {
+  border: 2px solid rgb(44, 41, 38);
+}
+
+thead {
+  background-color: rgb(245, 202, 145);
 }
 
 .lists {
